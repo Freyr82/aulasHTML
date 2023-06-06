@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídia HTML </title>
+</head>
+<body>
+    <h1>Imagem dinâminas</h1>
+    <p>aumentar e diminuir a janela</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/pqueno.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/medio.png" type="image/png">
+        <img src="imagens/grande.png" alt="imagem flexível">
+    </picture>
+    <hr>
+    <h1>áudios</h1>
+    <audio src="midia/Kowloon - Wake Up (Official Video).mp3" controls autoplay></audio>
+    <audio preload="auto" autoplay controls>
+        <source src="midia/Just the Two of Us (feat. Bill Withers).mp3" type="audio/mpeg">
+    <p>Se seu navegador n rodar o áudio aq a <a href="midia/Just the Two of Us (feat. Bill Withers).mp3">musica para baixar</a>.</p>
+    </audio>
+    <hr>
+    <h1>vídeo</h1>
+    <p>Vídeo hospedado localmente</p>
+    <video src="video/urso pepe comendo pão.mp4" controls></video>
+    <h1>Vídeo externo</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/6FKGHTx3eE8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+</body>
+</html>
